@@ -8,7 +8,8 @@ on:
 jobs:
   signin:
     name: Aliyun Signin
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
